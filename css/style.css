@@ -1,0 +1,121 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+}
+.container{
+	position: relative;
+	height: 700px;
+	width: 1000;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}.navBar ul{
+	position: absolute;
+	right: 50px;
+}.navBar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	cursor: pointer;
+	font-weight: 600;
+}.leftPanel{
+	width: 25%;
+	height: 700px;
+	background: #7D9D9C;
+}.rightPanel{
+	width: 75%;
+	height: 700px;
+	background: white;
+	padding-left: 12.5%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}.middlePanel{
+	padding: 40px 25px 0px 25px;
+	position: absolute;
+	background: #F0EBE3;
+	top: 125px;
+	left: 10%;
+	width: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	border-radius: 3px;
+}.img, .img img{
+	width: 200px;
+	height: 200px;
+	border-radius: 99px;
+}.social{
+	padding: 0 25px;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+}ion-icon{
+	font-size: 20px;
+	padding: 15px;
+	cursor: pointer;
+}ion-icon:hover{
+	
+}.details{
+	font-size: 30px;
+	font-weight: 700;
+}.smallDivider{
+	width: 75px;
+	height: 3px;
+	background: #3B9AE1;
+	margin-bottom: 10px;
+}.description{
+	letter-spacing: 2px;
+	padding: 20px;
+}.header{
+	font-size: 50px;
+	font-weight: 700;
+}.header1{
+	font-weight: 600;
+	font-size: 20px;
+}.btn1{
+	padding: 10px 40px;
+	background: #3120E0;
+	border: 3px solid #3120E0;
+	border-radius: 99px;
+	color: #fff;
+	cursor: pointer;
+	margin: 0 5px;
+	transition: .25s;
+	font-weight: 700;
+}.btn2{
+	padding: 10px 40px;
+	border: 3px solid #3120E0;
+	border-radius: 99px;
+	color: #000;
+	cursor: pointer;
+	margin: 0 5px;
+	transition: .25s;
+	font-weight: 700;
+}.btnGroup{
+	margin: 20px 0px;
+}.btn1:hover{
+	color: #000;
+	background: none;
+}.btn2:hover{
+	color: #fff;
+	background: #3120E0;
+}.sentence{
+	width: 90%;
+}.active{
+	color: #3B9AE1;
+}a{
+	text-decoration: none;
+}a:visited{
+	color: inherit;
+}
+
+.hidden{
+	display: None;
+}
