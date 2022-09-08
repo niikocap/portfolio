@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nikko Capiroso | Resume</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+</head>
+<body>
+	<div class="navBar">
+		<ul>
+			<li><a href="index.html">ABOUT ME</a></li>
+			<li class="active">RESUME</li>
+			<li><a href="project.html">PROJECTS</a></li>
+		</ul>
+	</div>
+	<div class="container">
+		
+		<div class="resumeText">
+			<div class="box"></div>RESUME
+		</div>
+		<div class="myH1">
+			<p>Experience</p>
+		</div>
+		<div class="resumeBox">
+			<div class="leftSide">
+				<div class="title">PRESENT</div>
+				<p class="details">FLUTTER APP DEVELOPER</p>
+				<p class="details">Self employed</p>
+				<p class="details">N/A</p>
+			</div>
+			<div class="rightSide">
+				<p class="details">
+					I am developing projects as a hobby right now, you can look at what i did in the projects tab its not yet finish since  I want to look for job so I can earn some money to sustent myself.
+				</p>
+			</div>
+		</div>
+		<div class="myH1">
+			<p>Education</p>
+		</div>
+		<div class="resumeBox">
+			<div class="leftSide">
+				<div class="title">2015-2018</div>
+				<p class="details">University of the Philippines</p>
+				<p class="details">Undergraduate</p>
+				<p class="details">Los Baños</p>
+			</div>
+			<div class="rightSide">
+				<p class="details">
+					I did'nt  finish my college due to some personal reason, but i was taking bachelor in science major in elecectrical engineering, I know it sounds of to what im currently doing but, in that course I found my passion and what I want to do with my life.
+				</p>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="myH1">Profesional SkillSet</div>
+			<div class="customBox">
+				<div class="tab1">
+					<div class="set">
+						<div class="box1"></div>
+						<p>Fast Learner</p>
+					</div>
+					<div class="set">
+						<div class="box1"></div>
+						<p>Systematic</p>
+					</div>
+					<div class="set">
+						<div class="box1"></div>
+						<p>HTML, CSS, Javascript</p>
+					</div>
+				</div><div class="tab2">
+					<div class="set">
+						<div class="box1"></div>
+						<p>Teamwork & Collaboration</p>
+					</div>
+					<div class="set">
+						<div class="box1"></div>
+						<p>Flutter</p>
+					</div>
+				</div>
+			</div>
+			<div class="sizeBox"></div>
+			<div class="myH1">Languages</div>
+			<div class="customBox">
+				
+				<div class="tab1">
+					<div class="set">
+						<div class="box1"></div>
+						<p>English (Proficient)</p>
+					</div>
+				</div>
+				<div class="tab2">
+					<div class="set">
+						<div class="box1"></div>
+						<p>Filipino (native)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/resume.js"></script>
+</body>
+</html>
